@@ -1,0 +1,5 @@
+hub OSTERWALDER LAB - ChIP-seq - CTCF & Histone-marks
+shortLabel ChIPseq - Heart Tissue
+longLabel CTCF (Bonev, ENCODE4) + H3Kme1, H3Kme3, H3K27ac, H3K27me3 (ENCODE4)
+genomesFile genomes.txt 
+email  matteo.zoia@dbmr.unibe.ch

@@ -1,0 +1,880 @@
+track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_INTERSECTED_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358d00e69aa3bd7194/display?to_ext=bigbed
+itemRgb on
+shortLabel CTCF ChIPseq mESC Rep1,2 PEAKS
+longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+type bigBed 3 .
+configurable on
+visibility dense
+color 199,113,28 
+
+track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
+    container multiWig
+    shortLabel CTCF ChIPseq mESC rep1,2 PROFILES OVERLAY
+    longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+
+        track CTCF_ChIPseq_mESC_Rep1_PROFILE 
+        parent CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357d7ac027a35ada18/display?to_ext=bigwig
+        shortLabel CTCF ChIPseq mESC Rep1 PROFILE
+        longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+        type bigWig
+        color 199,113,28
+          
+        track CTCF_ChIPseq_mESC_Rep2_PROFILE
+        parent CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cba0f970ca940c64/display?to_ext=bigwig
+        shortLabel CTCF ChIPseq mESC Rep2 PROFILE
+        longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+        type bigWig
+        color 199,113,28
+
+
+
+track Heart_CTCF_ChIP-seq_P0_IDRthresholdedPeaks  
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213545adeb834c77ad6a/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_CTCF_P0
+longLabel Heart_CTCF_P0_ChIP-seq_ENCODE4_IDRthresholdedPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 51,153,255 
+
+track Heart_CTCF_ChIP-seq_P0_IDRthresholdedPeaks  
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213554549ba4323428ed/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_CTCF_P0
+longLabel Heart_CTCF_P0_ChIP-seq_ENCODE4_IDRthresholdedPeaks       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 51,153,255
+
+
+
+
+
+
+
+track Heart_H3K27ac_ChIP-seq_E10.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ea0fb7f0fd53f15e/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27ac_E10.5
+longLabel Heart_H3K27ac_E10.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,204,51       
+
+track Heart_H3K27ac_ChIP-seq_E11.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a32ec06a02d89293/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27ac_E11.5
+longLabel Heart_H3K27ac_E11.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E12.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d948ddf347ce0646/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27ac_E12.5
+longLabel Heart_H3K27ac_E12.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E13.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213591be211cec000a86/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27ac_E13.5
+longLabel Heart_H3K27ac_E13.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E14.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a7877e8f6f2902f5/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27ac_E14.5
+longLabel Heart_H3K27ac_E14.5_ChIP-seq_ENCODE4_PseudobulkPeaks      
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E15.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f1940310f82a3ca7/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27ac_E15.5
+longLabel Heart_H3K27ac_E15.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E16.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ba4ed86d99a39a23/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27ac_E16.5
+longLabel Heart_H3K27ac_E16.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,204,51  
+
+
+
+
+
+track Heart_H3K27me3_ChIP-seq_E10.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357baa95c5a9c9d204/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27me3_E10.5
+longLabel Heart_H3K27me3_E10.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51       
+
+track Heart_H3K27me3_ChIP-seq_E11.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213556a6ee6efa7b8ce4/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27me3_E11.5
+longLabel Heart_H3K27me3_E11.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E12.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213588ee82426d566ebc/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27me3_E12.5
+longLabel Heart_H3K27me3_E12.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E13.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354e56a05d8da1e3df/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27me3_E13.5
+longLabel Heart_H3K27me3_E13.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E14.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213532a37590350f34aa/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27me3_E14.5
+longLabel Heart_H3K27me3_E14.5_ChIP-seq_ENCODE4_PseudobulkPeaks      
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E15.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213564dfe6fb79c22792/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27me3_E15.5
+longLabel Heart_H3K27me3_E15.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E16.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135db85df88805c5cd1/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K27me3_E16.5
+longLabel Heart_H3K27me3_E16.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51  
+
+
+
+
+
+
+
+track Heart_H3K4me1_ChIP-seq_E10.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352a75574e4bda58e6/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me1_E10.5
+longLabel Heart_H3K4me1_E10.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 204,153,0       
+
+track Heart_H3K4me1_ChIP-seq_E11.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355f3f891e0d631665/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me1_E11.5
+longLabel Heart_H3K4me1_E11.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E12.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351a75c7b7eb7f8546/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me1_E12.5
+longLabel Heart_H3K4me1_E12.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E13.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213524799b0b1f794ba4/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me1_E13.5
+longLabel Heart_H3K4me1_E13.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E14.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355c643407529ffef8/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me1_E14.5
+longLabel Heart_H3K4me1_E14.5_ChIP-seq_ENCODE4_PseudobulkPeaks      
+type bigBed 3 +
+configurable on
+visibility dense
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E15.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213534cd8869f932d4ed/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me1_E15.5
+longLabel Heart_H3K4me1_E15.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E16.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d7bda8dbaf569f6f/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me1_E16.5
+longLabel Heart_H3K4me1_E16.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 204,153,0  
+
+
+
+
+
+
+track Heart_H3K4me3_ChIP-seq_E10.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213562471c9ddd59f549/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me3_E10.5
+longLabel Heart_H3K4me3_E10.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 50,168,82       
+
+track Heart_H3K4me3_ChIP-seq_E11.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135192671f9e9275c3a/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me3_E11.5
+longLabel Heart_H3K4me3_E11.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E12.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b4ec2ac306063951/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me3_E12.5
+longLabel Heart_H3K4me3_E12.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E13.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dd6f56e58c8cf2e5/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me3_E13.5
+longLabel Heart_H3K4me3_E13.5_ChIP-seq_ENCODE4_PseudobulkPeaks       
+type bigBed 3 +
+configurable on
+visibility dense
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E14.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f0aa25ae4b9a4297/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me3_E14.5
+longLabel Heart_H3K4me3_E14.5_ChIP-seq_ENCODE4_PseudobulkPeaks      
+type bigBed 3 +
+configurable on
+visibility dense
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_15.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353170448ac47aac74/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me3_E15.5
+longLabel Heart_H3K4me3_E15.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E16.5_PseudobulkPeaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353b690b3e41b07b2c/display?to_ext=bigbed
+itemRgb on
+shortLabel Heart_H3K4me3_E16.5
+longLabel Heart_H3K4me3_E16.5_ChIP-seq_ENCODE4_PseudobulkPeaks    
+type bigBed 3 +
+configurable on
+visibility dense
+color 50,168,82  
+
+
+
+
+
+
+
+
+track Heart_H3K27ac_ChIP-seq_E10.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353ac2caf47c2b10f8/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27ac_E10.5
+longLabel Heart_H3K27ac_E10.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,51       
+
+track Heart_H3K27ac_ChIP-seq_E11.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e7b053af52a9c768/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27ac_E11.5
+longLabel Heart_H3K27ac_E11.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E12.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e5a92ee07d5604ce/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27ac_E12.5
+longLabel Heart_H3K27ac_E12.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E13.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a95d4b29e38d7db4/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27ac_E13.5
+longLabel Heart_H3K27ac_E13.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E14.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511c683ee49a2a7d9/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27ac_E14.5
+longLabel Heart_H3K27ac_E14.5_ChIP-seq_ENCODE4_signalPvalueProfile      
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E15.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d79acd60c3208860/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27ac_E15.5
+longLabel Heart_H3K27ac_E15.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,51  
+
+track Heart_H3K27ac_ChIP-seq_E16.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f1925d47aed74b77/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27ac_E16.5
+longLabel Heart_H3K27ac_E16.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,51  
+
+
+
+
+
+track Heart_H3K27me3_ChIP-seq_E10.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135decb123241df4d1d/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27me3_E10.5
+longLabel Heart_H3K27me3_E10.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,51,51       
+
+track Heart_H3K27me3_ChIP-seq_E11.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c34455b182f6d123/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27me3_E11.5
+longLabel Heart_H3K27me3_E11.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E12.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351a330d4e28e903f5/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27me3_E12.5
+longLabel Heart_H3K27me3_E12.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E13.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213540c0e690e491c7fa/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27me3_E13.5
+longLabel Heart_H3K27me3_E13.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E14.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359ddc2344d2feeaf6/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27me3_E14.5
+longLabel Heart_H3K27me3_E14.5_ChIP-seq_ENCODE4_signalPvalueProfile      
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E15.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213564a94a8d3bd00662/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27me3_E15.5
+longLabel Heart_H3K27me3_E15.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,51,51  
+
+track Heart_H3K27me3_ChIP-seq_E16.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d8a962de0048baa8/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K27me3_E16.5
+longLabel Heart_H3K27me3_E16.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,51,51  
+
+
+
+
+
+
+
+track Heart_H3K4me1_ChIP-seq_E10.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355e1397eac34fee4c/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me1_E10.5
+longLabel Heart_H3K4me1_E10.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,0       
+
+track Heart_H3K4me1_ChIP-seq_E11.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e4014b6f075522ea/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me1_E11.5
+longLabel Heart_H3K4me1_E11.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E12.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213547feec8c9b05fc43/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me1_E12.5
+longLabel Heart_H3K4me1_E12.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E13.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352f4c4dd1aef60b33/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me1_E13.5
+longLabel Heart_H3K4me1_E13.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E14.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357235dacb35f110b2/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me1_E14.5
+longLabel Heart_H3K4me1_E14.5_ChIP-seq_ENCODE4_signalPvalueProfile      
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E15.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135adb1e040992ae642/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me1_E15.5
+longLabel Heart_H3K4me1_E15.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,0  
+
+track Heart_H3K4me1_ChIP-seq_E16.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213591bc65d0e7b2da1f/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me1_E16.5
+longLabel Heart_H3K4me1_E16.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,0  
+
+
+
+
+
+
+track Heart_H3K4me3_ChIP-seq_E10.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356fe1e8e3b7c2f79e/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me3_E10.5
+longLabel Heart_H3K4me3_E10.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 50,168,82       
+
+track Heart_H3K4me3_ChIP-seq_E11.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351b24d32d3887ab4d/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me3_E11.5
+longLabel Heart_H3K4me3_E11.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E12.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e77be584a3deb071/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me3_E12.5
+longLabel Heart_H3K4me3_E12.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E13.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350d389171a73ac1af/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me3_E13.5
+longLabel Heart_H3K4me3_E13.5_ChIP-seq_ENCODE4_signalPvalueProfile       
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E14.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357d5fef6f834db5ab/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me3_E14.5
+longLabel Heart_H3K4me3_E14.5_ChIP-seq_ENCODE4_signalPvalueProfile      
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_15.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350366d219e52fd899/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me3_E15.5
+longLabel Heart_H3K4me3_E15.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 50,168,82  
+
+track Heart_H3K4me3_ChIP-seq_E16.5_signalPvalueProfile
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213569490ddd75820c2e/display?to_ext=bigwig
+itemRgb on
+shortLabel Heart_H3K4me3_E16.5
+longLabel Heart_H3K4me3_E16.5_ChIP-seq_ENCODE4_signalPvalueProfile    
+type bigWig 0 10
+configurable on
+visibility dense
+windowingFunction mean+whiskers
+viewLimits 0:10
+viewLimitsMax 0:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 50,168,82  
+
+
+
+
+
+
+
+
