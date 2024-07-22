@@ -55,11 +55,11 @@ configurable on
 visibility dense
 color 51,153,255 
 
-track Heart_CTCF_ChIP-seq_P0_IDRthresholdedPeaks  
+track Heart_CTCF_ChIP-seq_P0_signalPvalueProfile  
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213554549ba4323428ed/display?to_ext=bigwig
 itemRgb on
 shortLabel Heart_CTCF_P0
-longLabel Heart_CTCF_P0_ChIP-seq_ENCODE4_IDRthresholdedPeaks       
+longLabel Heart_CTCF_P0_ChIP-seq_ENCODE4_signalPvalueProfile       
 type bigWig 0 10
 configurable on
 visibility dense
