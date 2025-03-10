@@ -871,6 +871,805 @@ yLineMark 1
 gridDefault off
 color 50,168,82  
 
+track ES_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel ES_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346436_GSM2346437_ES_p300_rep1_rep2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track ES_p300_rep1_ChIPseq_Profile
+        parent ES_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d462f6c51ca475b2/display?to_ext=bigwig
+        shortLabel ES_p300_rep1_Track_Profile
+        longLabel ChIPseq_ES_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track ES_p300_rep2_ChIPseq_Profile
+        parent ES_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213589e0dd3a59a5f8f7/display?to_ext=bigwig
+        shortLabel ES_p300_rep2_Track_Profile
+        longLabel ChIPseq_ES_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track ES_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355e57d89b88525d17/display?to_ext=bigbed
+itemRgb on
+shortLabel ES_p300_rep2_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346437_ES_p300_rep2      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track ES_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351401389843975144/display?to_ext=bigbed
+itemRgb on
+shortLabel ES_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346436_ES_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0 
+
+
+
+
+
+
+
+
+
+track E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E12.5_FB_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346439_GSM2346440_E12.5_FB_p300_rep1_rep2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E12.5_FB_p300_rep1_ChIPseq_Profile
+        parent E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e251d92e032ec70d/display?to_ext=bigwig
+        shortLabel E12.5_FB_p300_rep1_Track_Profile
+        longLabel ChIPseq_E12.5_FB_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E12.5_FB_p300_rep2_ChIPseq_Profile
+        parent E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c8fec4d9d809a8c1/display?to_ext=bigwig
+        shortLabel E12.5_FB_p300_rep2_Track_Profile
+        longLabel ChIPseq_E12.5_FB_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E12.5_FB_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ce621ec768749d05/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_FB_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346440_E12.5_FB_p300_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E12.5_FB_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213546abb6f71cd27d10/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_FB_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346439_E12.5_FB_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0 
+
+
+
+
+
+
+
+track E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E12.5_FB_H3K27ac_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_GSM2346442_E12.5_FB_H3K27ac_rep1_rep2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E12.5_FB_H3K27ac_rep1_ChIPseq_Profile
+        parent E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fd589c28ccc46ecb/display?to_ext=bigwig
+        shortLabel E12.5_FB_H3K27ac_rep1_Track_Profile
+        longLabel ChIPseq_E12.5_FB_H3K27ac_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E12.5_FB_H3K27ac_rep2_ChIPseq_Profile
+        parent E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213509046bde4ad0b3dd/display?to_ext=bigwig
+        shortLabel E12.5_FB_H3K27ac_rep2_Track_Profile
+        longLabel ChIPseq_E12.5_FB_H3K27ac_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E12.5_FB_H3K27ac_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b423d389f0dcc852/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_FB_H3K27ac_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346442_E12.5_FB_H3K27ac_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E12.5_FB_H3K27ac_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ca6d09a3fc30d2d7/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_FB_H3K27ac_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_E12.5_FB_H3K27ac_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0 
+
+
+
+
+
+
+
+
+track E12.5_Heart_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E12.5_Heart_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346444_GSM2346445_E12.5_Heart_p300_rep1_rep2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E12.5_Heart_p300_rep1_ChIPseq_Profile
+        parent E12.5_Heart_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352d398775d9349cc4/display?to_ext=bigwig
+        shortLabel E12.5_Heart_p300_rep1_Track_Profile
+        longLabel ChIPseq_E12.5_Heart_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E12.5_Heart_p300_rep2_ChIPseq_Profile
+        parent E12.5_Heart_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c6fcabc896a1d80f/display?to_ext=bigwig
+        shortLabel E12.5_Heart_p300_rep2_Track_Profile
+        longLabel ChIPseq_E12.5_Heart_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E12.5_Heart_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f3e8633d9b18478f/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_Heart_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346445_E12.5_Heart_p300_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E12.5_Heart_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c25edadaccad22e1/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_Heart_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346444_E12.5_Heart_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+
+
+
+
+
+
+track E12.5_Heart_H3K27ac_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E12.5_Heart_H3K27ac_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346446_GSM2346447_E12.5_Heart_H3K27ac_rep1_rep2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E12.5_Heart_H3K27ac_rep1_ChIPseq_Profile
+        parent E12.5_Heart_H3K27ac_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213598582812ee049b58/display?to_ext=bigwig
+        shortLabel E12.5_Heart_H3K27ac_rep1_Track_Profile
+        longLabel ChIPseq_E12.5_Heart_H3K27ac_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E12.5_Heart_H3K27ac_rep2_ChIPseq_Profile
+        parent E12.5_Heart_H3K27ac_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135be4f833248998a29/display?to_ext=bigwig
+        shortLabel E12.5_Heart_H3K27ac_rep2_Track_Profile
+        longLabel ChIPseq_E12.5_Heart_H3K27ac_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E12.5_Heart_H3K27ac_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213541774e4481aa84da/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_Heart_H3K27ac_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346447_E12.5_Heart_H3K27ac_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E12.5_Heart_H3K27ac_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357b27412233d5016d/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_Heart_H3K27ac_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346446_E12.5_Heart_H3K27ac_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+
+
+
+
+
+
+track E11.5_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E11.5_EIIaCre_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346449_GSM2346450_GSM2346451_E11.5_EIIaCre_p300_rep1_rep2_rep3
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E11.5_EIIaCre_p300_rep1_ChIPseq_Profile
+        parent E11.5_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135893efc298b0548e3/display?to_ext=bigwig
+        shortLabel E11.5_EIIaCre_p300_rep1_Track_Profile
+        longLabel ChIPseq_E11.5_EIIaCre_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E11.5_EIIaCre_p300_rep2_ChIPseq_Profile
+        parent E11.5_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358dcd59eef2bf97cb/display?to_ext=bigwig
+        shortLabel E11.5_EIIaCre_p300_rep2_Track_Profile
+        longLabel ChIPseq_E11.5_EIIaCre_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+        track E11.5_EIIaCre_p300_rep3_ChIPseq_Profile
+        parent E11.5_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135230eb3188ffa3ffd/display?to_ext=bigwig
+        shortLabel E11.5_EIIaCre_p300_rep3_Track_Profile
+        longLabel ChIPseq_E11.5_EIIaCre_p300_rep3_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E11.5_EIIaCre_p300_rep3_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354e461bfefcbfd63a/display?to_ext=bigbed
+itemRgb on
+shortLabel E11.5_EIIaCre_p300_rep3_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346451_E11.5_EIIaCre_p300_rep3     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+track E11.5_EIIaCre_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213588b577d4d7381cb8/display?to_ext=bigbed
+itemRgb on
+shortLabel E11.5_EIIaCre_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346450_E11.5_EIIaCre_p300_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E11.5_EIIaCre_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135735e782b1255ac37/display?to_ext=bigbed
+itemRgb on
+shortLabel E11.5_EIIaCre_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346449_E11.5_EIIaCre_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+
+
+
+
+
+
+track E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E11.5_Tie2Cre_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346452_GSM2346453_GSM2346454_E11.5_Tie2Cre_p300_rep1_rep2_rep3
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E11.5_Tie2Cre_p300_rep1_ChIPseq_Profile
+        parent E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bfabbc12cd823207/display?to_ext=bigwig
+        shortLabel E11.5_Tie2Cre_p300_rep1_Track_Profile
+        longLabel ChIPseq_E11.5_Tie2Cre_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E11.5_Tie2Cre_p300_rep2_ChIPseq_Profile
+        parent E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213549e8db36103ae3dd/display?to_ext=bigwig
+        shortLabel E11.5_Tie2Cre_p300_rep2_Track_Profile
+        longLabel ChIPseq_E11.5_Tie2Cre_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+        track E11.5_Tie2Cre_p300_rep3_ChIPseq_Profile
+        parent E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213545ea0b88cb21fa2c/display?to_ext=bigwig
+        shortLabel E11.5_Tie2Cre_p300_rep3_Track_Profile
+        longLabel ChIPseq_E11.5_Tie2Cre_p300_rep3_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E11.5_Tie2Cre_p300_rep3_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350274c395fccdf0e1/display?to_ext=bigbed
+itemRgb on
+shortLabel E11.5_Tie2Cre_p300_rep3_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346454_E11.5_Tie2Cre_p300_rep3     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+track E11.5_Tie2Cre_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135423383458bb28e85/display?to_ext=bigbed
+itemRgb on
+shortLabel E11.5_Tie2Cre_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346453_E11.5_Tie2Cre_p300_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E11.5_Tie2Cre_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e77b3eccd35cbeec/display?to_ext=bigbed
+itemRgb on
+shortLabel E11.5_Tie2Cre_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346452_E11.5_Tie2Cre_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+
+
+
+
+
+
+track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E13.5_Myf5Cre_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_GSM2346456_GSM2346457_E13.5_Myf5Cre_p300_rep1_rep2_rep3
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E13.5_Myf5Cre_p300_rep1_ChIPseq_Profile
+        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213534e4958328184853/display?to_ext=bigwig
+        shortLabel E13.5_Myf5Cre_p300_rep1_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E13.5_Myf5Cre_p300_rep2_ChIPseq_Profile
+        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213503a31287fc47bdd0/display?to_ext=bigwig
+        shortLabel E13.5_Myf5Cre_p300_rep2_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+        track E13.5_Myf5Cre_p300_rep3_ChIPseq_Profile
+        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135da1bbdd058800cad/display?to_ext=bigwig
+        shortLabel E13.5_Myf5Cre_p300_rep3_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep3_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E13.5_Myf5Cre_p300_rep3_ChIPseq_Peaks
+bigDataUrl 
+itemRgb on
+shortLabel E13.5_Myf5Cre_p300_rep3_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346457_E13.5_Myf5Cre_p300_rep3     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+track E13.5_Myf5Cre_p300_rep2_ChIPseq_Peaks
+bigDataUrl 
+itemRgb on
+shortLabel E13.5_Myf5Cre_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346456_E13.5_Myf5Cre_p300_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E13.5_Myf5Cre_p300_rep1_ChIPseq_Peaks
+bigDataUrl 
+itemRgb on
+shortLabel E13.5_Myf5Cre_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_E13.5_Myf5Cre_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+
+
+
+
+
+track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E13.5_Myf5Cre_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_GSM2346456_GSM2346457_E13.5_Myf5Cre_p300_rep1_rep2_rep3
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E13.5_Myf5Cre_p300_rep1_ChIPseq_Profile
+        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl 
+        shortLabel E13.5_Myf5Cre_p300_rep1_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track E13.5_Myf5Cre_p300_rep2_ChIPseq_Profile
+        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl 
+        shortLabel E13.5_Myf5Cre_p300_rep2_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+        track E13.5_Myf5Cre_p300_rep3_ChIPseq_Profile
+        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl 
+        shortLabel E13.5_Myf5Cre_p300_rep3_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep3_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track E13.5_Myf5Cre_p300_rep3_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352d53727d93a154d9/display?to_ext=bigbed
+itemRgb on
+shortLabel E13.5_Myf5Cre_p300_rep3_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346457_E13.5_Myf5Cre_p300_rep3     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+track E13.5_Myf5Cre_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a749bfe045b5670a/display?to_ext=bigbed
+itemRgb on
+shortLabel E13.5_Myf5Cre_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346456_E13.5_Myf5Cre_p300_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track E13.5_Myf5Cre_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135757269a1878740a6/display?to_ext=bigbed
+itemRgb on
+shortLabel E13.5_Myf5Cre_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_E13.5_Myf5Cre_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+
+
+
+
+
+track Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel Adult_Heart_VecadCre_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346461_GSM2346462_GSM2346463_Adult_Heart_VecadCre_p300_rep1_rep2_rep3
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Adult_Heart_VecadCre_p300_rep1_ChIPseq_Profile
+        parent Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213583bb9a8c5eda69df/display?to_ext=bigwig
+        shortLabel Adult_Heart_VecadCre_p300_rep1_Track_Profile
+        longLabel ChIPseq_Adult_Heart_VecadCre_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track Adult_Heart_VecadCre_p300_rep2_ChIPseq_Profile
+        parent Adult_Heart_VecadCre_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a443fb4aae8bd5b5/display?to_ext=bigwig
+        shortLabel Adult_Heart_VecadCre_p300_rep2_Track_Profile
+        longLabel ChIPseq_Adult_Heart_VecadCre_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+        track Adult_Heart_VecadCre_p300_rep3_ChIPseq_Profile
+        parent Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213575b87fd448d43112/display?to_ext=bigwig
+        shortLabel Adult_Heart_VecadCre_p300_rep3_Track_Profile
+        longLabel ChIPseq_Adult_Heart_VecadCre_p300_rep3_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+track Adult_Heart_VecadCre_p300_rep3_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b5c8abf8f9804eb6/display?to_ext=bigbed
+itemRgb on
+shortLabel Adult_Heart_VecadCre_p300_rep3_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346463_Adult_Heart_VecadCre_rep3     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+track Adult_Heart_VecadCre_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d9d6ce8241ccaf0e/display?to_ext=bigbed
+itemRgb on
+shortLabel Adult_Heart_VecadCre_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346462_Adult_Heart_VecadCre_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track Adult_Heart_VecadCre_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ba94b5e37ba37036/display?to_ext=bigbed
+itemRgb on
+shortLabel Adult_Heart_VecadCre_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346461_Adult_Heart_VecadCre_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
+
+
+
+
+
+
+track Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel Adult_Heart_EIIaCre_p300_rep1_rep2_OverlayTrack
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346459_GSM2346460_Adult_Heart_EIIaCre_p300_rep1_rep2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Adult_Heart_EIIaCre_p300_rep1_ChIPseq_Profile
+        parent Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a901c524d05e08ff/display?to_ext=bigwig
+        shortLabel Adult_Heart_EIIaCre_p300_rep1_Track_Profile
+        longLabel ChIPseq_Adult_Heart_EIIaCre_p300_rep1_Track_Profile
+        type bigWig
+        color 0,0,0
+          
+
+        track Adult_Heart_EIIaCre_p300_rep2_ChIPseq_Profile
+        parent Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353d195dd85077b5d8/display?to_ext=bigwig
+        shortLabel Adult_Heart_EIIaCre_p300_rep2_Track_Profile
+        longLabel ChIPseq_Adult_Heart_EIIaCre_p300_rep2_Track_Profile
+        type bigWig
+        color 0,0,0
+
+
+
+
+track Adult_Heart_EIIaCre_p300_rep2_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357a9d7c0728c7e332/display?to_ext=bigbed
+itemRgb on
+shortLabel Adult_Heart_EIIaCre_p300_rep2_Track_Peaks 
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346460_Adult_Heart_EIIaCre_p300_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0       
+
+track Adult_Heart_EIIaCre_p300_rep1_ChIPseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358ac7deb96bd75f0e/display?to_ext=bigbed
+itemRgb on
+shortLabel Adult_Heart_EIIaCre_p300_rep1_Track_Peaks
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346459_Adult_Heart_EIIaCre_p300_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 0,0,0
 
 
 
