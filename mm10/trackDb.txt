@@ -1413,88 +1413,6 @@ track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
 
 
 track E13.5_Myf5Cre_p300_rep3_ChIPseq_Peaks
-bigDataUrl 
-itemRgb on
-shortLabel E13.5_Myf5Cre_p300_rep3_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346457_E13.5_Myf5Cre_p300_rep3     
-type bigBed 3 +
-configurable on
-visibility dense
-color 0,0,0
-
-track E13.5_Myf5Cre_p300_rep2_ChIPseq_Peaks
-bigDataUrl 
-itemRgb on
-shortLabel E13.5_Myf5Cre_p300_rep2_Track_Peaks 
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346456_E13.5_Myf5Cre_p300_rep2     
-type bigBed 3 +
-configurable on
-visibility dense
-color 0,0,0       
-
-track E13.5_Myf5Cre_p300_rep1_ChIPseq_Peaks
-bigDataUrl 
-itemRgb on
-shortLabel E13.5_Myf5Cre_p300_rep1_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_E13.5_Myf5Cre_p300_rep1      
-type bigBed 3 +
-configurable on
-visibility dense
-color 0,0,0
-
-
-
-
-
-
-track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
-    container multiWig
-    shortLabel E13.5_Myf5Cre_p300_rep1_rep2_OverlayTrack
-    longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_GSM2346456_GSM2346457_E13.5_Myf5Cre_p300_rep1_rep2_rep3
-    type bigWig 0 30000
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0.816622:10
-    viewLimitsMax 0.816622:124.127
-    maxHeightPixels 128:30:11
-    aggregate transparentOverlay
-    showSubtrackColorOnUi on
-    autoScale off
-    smoothingWindow off
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    
-    
-        track E13.5_Myf5Cre_p300_rep1_ChIPseq_Profile
-        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
-        bigDataUrl 
-        shortLabel E13.5_Myf5Cre_p300_rep1_Track_Profile
-        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep1_Track_Profile
-        type bigWig
-        color 0,0,0
-          
-
-        track E13.5_Myf5Cre_p300_rep2_ChIPseq_Profile
-        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
-        bigDataUrl 
-        shortLabel E13.5_Myf5Cre_p300_rep2_Track_Profile
-        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep2_Track_Profile
-        type bigWig
-        color 0,0,0
-
-        track E13.5_Myf5Cre_p300_rep3_ChIPseq_Profile
-        parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
-        bigDataUrl 
-        shortLabel E13.5_Myf5Cre_p300_rep3_Track_Profile
-        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep3_Track_Profile
-        type bigWig
-        color 0,0,0
-
-
-
-track E13.5_Myf5Cre_p300_rep3_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352d53727d93a154d9/display?to_ext=bigbed
 itemRgb on
 shortLabel E13.5_Myf5Cre_p300_rep3_Track_Peaks
@@ -1523,9 +1441,6 @@ type bigBed 3 +
 configurable on
 visibility dense
 color 0,0,0
-
-
-
 
 
 
