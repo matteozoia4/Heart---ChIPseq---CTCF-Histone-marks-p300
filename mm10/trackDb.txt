@@ -6,7 +6,7 @@ longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
 type bigBed 3 .
 configurable on
 visibility dense
-color 199,113,28 
+color 51,153,255 
 
 track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
     container multiWig
@@ -33,7 +33,7 @@ track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
         shortLabel CTCF ChIPseq mESC Rep1 PROFILE
         longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
         type bigWig
-        color 199,113,28
+        color 51,153,255
           
         track CTCF_ChIPseq_mESC_Rep2_PROFILE
         parent CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
@@ -41,7 +41,7 @@ track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
         shortLabel CTCF ChIPseq mESC Rep2 PROFILE
         longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
         type bigWig
-        color 199,113,28
+        color 51,153,255
 
 
 
