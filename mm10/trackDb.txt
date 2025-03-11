@@ -1474,7 +1474,7 @@ track Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
           
 
         track Adult_Heart_VecadCre_p300_rep2_ChIPseq_Profile
-        parent Adult_Heart_VecadCre_ChIPseq_GSE88789_ZhouP
+        parent Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a443fb4aae8bd5b5/display?to_ext=bigwig
         shortLabel Adult_Heart_VecadCre_p300_rep2_Track_Profile
         longLabel ChIPseq_Adult_Heart_VecadCre_rep2_Track_Profile
