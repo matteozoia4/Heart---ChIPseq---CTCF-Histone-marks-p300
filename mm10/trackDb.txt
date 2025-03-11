@@ -1599,7 +1599,7 @@ longLabel P300 Atria PEAKS GSM6620040
 type bigBed 3 .
 configurable on
 visibility dense
-color 102,204,102
+color 0,0,0
 
 track GSE215065_Yuan_H_2023_GSM6620040_P300_A_SRR21838846_47_48_PROFILE
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213576ef111b403772ce/display?to_ext=bigwig
@@ -1620,7 +1620,7 @@ track GSE215065_Yuan_H_2023_GSM6620040_P300_A_SRR21838846_47_48_PROFILE
     yLineOnOff off
     yLineMark 1
     gridDefault off
-    color 102,204,102
+    color 0,0,0
 
 track GSE215065_Yuan_H_2023_GSM6620042_P300_V_SRR21838842_43_44_45_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213529ea23593b948883/display?to_ext=bigbed
@@ -1630,7 +1630,7 @@ longLabel P300 ventricle PEAKS GSM6620042
 type bigBed 3 .
 configurable on
 visibility dense
-color 102,204,102
+color 0,0,0
 
 track GSE215065_Yuan_H_2023_GSM6620042_P300_V_SRR21838842_43_44_45_PROFILE
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359b409db5bbd98906/display?to_ext=bigwig
@@ -1651,7 +1651,7 @@ track GSE215065_Yuan_H_2023_GSM6620042_P300_V_SRR21838842_43_44_45_PROFILE
     yLineOnOff off
     yLineMark 1
     gridDefault off
-    color 102,204,102
+    color 0,0,0
 
 
 
