@@ -14,7 +14,7 @@ track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
     longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -877,7 +877,7 @@ track ES_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346436_GSM2346437_ES_p300_rep1_rep2
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -944,7 +944,7 @@ track E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346439_GSM2346440_E12.5_FB_p300_rep1_rep2
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1009,7 +1009,7 @@ track E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_GSM2346442_E12.5_FB_H3K27ac_rep1_rep2
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1075,7 +1075,7 @@ track E12.5_Heart_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346444_GSM2346445_E12.5_Heart_p300_rep1_rep2
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1140,7 +1140,7 @@ track E12.5_Heart_H3K27ac_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346446_GSM2346447_E12.5_Heart_H3K27ac_rep1_rep2
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1205,7 +1205,7 @@ track E11.5_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346449_GSM2346450_GSM2346451_E11.5_EIIaCre_p300_rep1_rep2_rep3
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1288,7 +1288,7 @@ track E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346452_GSM2346453_GSM2346454_E11.5_Tie2Cre_p300_rep1_rep2_rep3
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1371,7 +1371,7 @@ track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_GSM2346456_GSM2346457_E13.5_Myf5Cre_p300_rep1_rep2_rep3
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1450,7 +1450,7 @@ track Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346461_GSM2346462_GSM2346463_Adult_Heart_VecadCre_p300_rep1_rep2_rep3
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
@@ -1532,7 +1532,7 @@ track Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
     longLabel ChIPseq_GSE88789_ZhouP_GSM2346459_GSM2346460_Adult_Heart_EIIaCre_p300_rep1_rep2
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
