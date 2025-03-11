@@ -1029,7 +1029,7 @@ track E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
         shortLabel E12.5_FB_H3K27ac_rep1_Track_Profile
         longLabel ChIPseq_E12.5_FB_H3K27ac_rep1_Track_Profile
         type bigWig
-        color 0,0,0
+        color 255,204,51
           
 
         track E12.5_FB_H3K27ac_rep2_ChIPseq_Profile
@@ -1038,7 +1038,7 @@ track E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
         shortLabel E12.5_FB_H3K27ac_rep2_Track_Profile
         longLabel ChIPseq_E12.5_FB_H3K27ac_rep2_Track_Profile
         type bigWig
-        color 0,0,0
+        color 255,204,51
 
 
 
@@ -1050,7 +1050,7 @@ longLabel ChIPseq_GSE88789_ZhouP_GSM2346442_E12.5_FB_H3K27ac_rep2
 type bigBed 3 +
 configurable on
 visibility dense
-color 0,0,0       
+color 255,204,51       
 
 track E12.5_FB_H3K27ac_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ca6d09a3fc30d2d7/display?to_ext=bigbed
@@ -1060,7 +1060,7 @@ longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_E12.5_FB_H3K27ac_rep1
 type bigBed 3 +
 configurable on
 visibility dense
-color 0,0,0 
+color 255,204,51 
 
 
 
@@ -1160,7 +1160,7 @@ track E12.5_Heart_H3K27ac_ChIPseq_GSE88789_ZhouP
         shortLabel E12.5_Heart_H3K27ac_rep1_Track_Profile
         longLabel ChIPseq_E12.5_Heart_H3K27ac_rep1_Track_Profile
         type bigWig
-        color 0,0,0
+        color 255,204,51
           
 
         track E12.5_Heart_H3K27ac_rep2_ChIPseq_Profile
@@ -1169,7 +1169,7 @@ track E12.5_Heart_H3K27ac_ChIPseq_GSE88789_ZhouP
         shortLabel E12.5_Heart_H3K27ac_rep2_Track_Profile
         longLabel ChIPseq_E12.5_Heart_H3K27ac_rep2_Track_Profile
         type bigWig
-        color 0,0,0
+        color 255,204,51
 
 
 
@@ -1181,7 +1181,7 @@ longLabel ChIPseq_GSE88789_ZhouP_GSM2346447_E12.5_Heart_H3K27ac_rep2
 type bigBed 3 +
 configurable on
 visibility dense
-color 0,0,0       
+color 255,204,51       
 
 track E12.5_Heart_H3K27ac_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357b27412233d5016d/display?to_ext=bigbed
@@ -1191,7 +1191,7 @@ longLabel ChIPseq_GSE88789_ZhouP_GSM2346446_E12.5_Heart_H3K27ac_rep1
 type bigBed 3 +
 configurable on
 visibility dense
-color 0,0,0
+color 255,204,51
 
 
 
