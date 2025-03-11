@@ -1608,7 +1608,7 @@ track GSE215065_Yuan_H_2023_GSM6620040_P300_A_SRR21838846_47_48_PROFILE
     longLabel P300 Atria PROFILE GSM6620040 
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -1639,7 +1639,7 @@ track GSE215065_Yuan_H_2023_GSM6620042_P300_V_SRR21838842_43_44_45_PROFILE
     longLabel P300 Ventricle PROFILE GSM6620042
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
