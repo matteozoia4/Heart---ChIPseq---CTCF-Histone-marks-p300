@@ -941,7 +941,7 @@ color 0,0,0
 track E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
     container multiWig
     shortLabel E12.5_FB_p300_rep1_rep2_OverlayTrack
-    longLabel ChIPseq_GSE88789_ZhouP_GSM2346439_GSM2346440_E12.5_FB_p300_rep1_rep2
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346439_GSM2346440_E12.5_ForeBrain_p300_rep1_rep2
     type bigWig 0 30000
     configurable on
     visibility dense
@@ -962,7 +962,7 @@ track E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
         parent E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e251d92e032ec70d/display?to_ext=bigwig
         shortLabel E12.5_FB_p300_rep1_Track_Profile
-        longLabel ChIPseq_E12.5_FB_p300_rep1_Track_Profile
+        longLabel ChIPseq_E12.5_ForeBrain_p300_rep1_Track_Profile
         type bigWig
         color 0,0,0
           
@@ -971,7 +971,7 @@ track E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
         parent E12.5_FB_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c8fec4d9d809a8c1/display?to_ext=bigwig
         shortLabel E12.5_FB_p300_rep2_Track_Profile
-        longLabel ChIPseq_E12.5_FB_p300_rep2_Track_Profile
+        longLabel ChIPseq_E12.5_ForeBrain_p300_rep2_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -981,7 +981,7 @@ track E12.5_FB_p300_rep2_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ce621ec768749d05/display?to_ext=bigbed
 itemRgb on
 shortLabel E12.5_FB_p300_rep2_Track_Peaks 
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346440_E12.5_FB_p300_rep2     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346440_E12.5_ForeBrain_p300_rep2     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -991,7 +991,7 @@ track E12.5_FB_p300_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213546abb6f71cd27d10/display?to_ext=bigbed
 itemRgb on
 shortLabel E12.5_FB_p300_rep1_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346439_E12.5_FB_p300_rep1      
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346439_E12.5_ForeBrain_p300_rep1      
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1006,7 +1006,7 @@ color 0,0,0
 track E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
     container multiWig
     shortLabel E12.5_FB_H3K27ac_rep1_rep2_OverlayTrack
-    longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_GSM2346442_E12.5_FB_H3K27ac_rep1_rep2
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_GSM2346442_E12.5_ForeBrain_H3K27ac_rep1_rep2
     type bigWig 0 30000
     configurable on
     visibility dense
@@ -1027,7 +1027,7 @@ track E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
         parent E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fd589c28ccc46ecb/display?to_ext=bigwig
         shortLabel E12.5_FB_H3K27ac_rep1_Track_Profile
-        longLabel ChIPseq_E12.5_FB_H3K27ac_rep1_Track_Profile
+        longLabel ChIPseq_E12.5_ForeBrain_H3K27ac_rep1_Track_Profile
         type bigWig
         color 255,204,51
           
@@ -1036,7 +1036,7 @@ track E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
         parent E12.5_FB_H3K27ac_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213509046bde4ad0b3dd/display?to_ext=bigwig
         shortLabel E12.5_FB_H3K27ac_rep2_Track_Profile
-        longLabel ChIPseq_E12.5_FB_H3K27ac_rep2_Track_Profile
+        longLabel ChIPseq_E12.5_ForeBrain_H3K27ac_rep2_Track_Profile
         type bigWig
         color 255,204,51
 
@@ -1046,7 +1046,7 @@ track E12.5_FB_H3K27ac_rep2_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b423d389f0dcc852/display?to_ext=bigbed
 itemRgb on
 shortLabel E12.5_FB_H3K27ac_rep2_Track_Peaks 
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346442_E12.5_FB_H3K27ac_rep2     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346442_E12.5_ForeBrain_H3K27ac_rep2     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1056,7 +1056,7 @@ track E12.5_FB_H3K27ac_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ca6d09a3fc30d2d7/display?to_ext=bigbed
 itemRgb on
 shortLabel E12.5_FB_H3K27ac_rep1_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_E12.5_FB_H3K27ac_rep1      
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346441_E12.5_ForeBrain_H3K27ac_rep1      
 type bigBed 3 +
 configurable on
 visibility dense
