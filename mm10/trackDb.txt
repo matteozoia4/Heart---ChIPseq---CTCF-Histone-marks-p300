@@ -1368,7 +1368,7 @@ color 0,0,0
 track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
     container multiWig
     shortLabel E13.5_Myf5Cre_p300_rep1_rep2_OverlayTrack
-    longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_GSM2346456_GSM2346457_E13.5_Myf5Cre_p300_rep1_rep2_rep3
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_GSM2346456_GSM2346457_E13.5_Myf5Cre_SkeletalMuscleinEmbryo_p300_rep1_rep2_rep3
     type bigWig 0 30000
     configurable on
     visibility dense
@@ -1389,7 +1389,7 @@ track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
         parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213534e4958328184853/display?to_ext=bigwig
         shortLabel E13.5_Myf5Cre_p300_rep1_Track_Profile
-        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep1_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_SkeletalMuscleinEmbryo_p300_rep1_Track_Profile
         type bigWig
         color 0,0,0
           
@@ -1398,7 +1398,7 @@ track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
         parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213503a31287fc47bdd0/display?to_ext=bigwig
         shortLabel E13.5_Myf5Cre_p300_rep2_Track_Profile
-        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep2_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_SkeletalMuscleinEmbryo_p300_rep2_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -1406,7 +1406,7 @@ track E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
         parent E13.5_Myf5Cre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135da1bbdd058800cad/display?to_ext=bigwig
         shortLabel E13.5_Myf5Cre_p300_rep3_Track_Profile
-        longLabel ChIPseq_E13.5_Myf5Cre_p300_rep3_Track_Profile
+        longLabel ChIPseq_E13.5_Myf5Cre_SkeletalMuscleinEmbryo_p300_rep3_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -1416,7 +1416,7 @@ track E13.5_Myf5Cre_p300_rep3_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352d53727d93a154d9/display?to_ext=bigbed
 itemRgb on
 shortLabel E13.5_Myf5Cre_p300_rep3_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346457_E13.5_Myf5Cre_p300_rep3     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346457_E13.5_Myf5Cre_SkeletalMuscleinEmbryo_p300_rep3     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1426,7 +1426,7 @@ track E13.5_Myf5Cre_p300_rep2_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a749bfe045b5670a/display?to_ext=bigbed
 itemRgb on
 shortLabel E13.5_Myf5Cre_p300_rep2_Track_Peaks 
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346456_E13.5_Myf5Cre_p300_rep2     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346456_E13.5_Myf5Cre_SkeletalMuscleinEmbryo_p300_rep2     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1436,7 +1436,7 @@ track E13.5_Myf5Cre_p300_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135757269a1878740a6/display?to_ext=bigbed
 itemRgb on
 shortLabel E13.5_Myf5Cre_p300_rep1_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_E13.5_Myf5Cre_p300_rep1      
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346455_E13.5_Myf5Cre_SkeletalMuscleinEmbryo_p300_rep1      
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1447,7 +1447,7 @@ color 0,0,0
 track Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
     container multiWig
     shortLabel Adult_Heart_VecadCre_p300_rep1_rep2_OverlayTrack
-    longLabel ChIPseq_GSE88789_ZhouP_GSM2346461_GSM2346462_GSM2346463_Adult_Heart_VecadCre_p300_rep1_rep2_rep3
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346461_GSM2346462_GSM2346463_Adult(P8)_Heart_VecadCre_EndothelialinHeart_p300_rep1_rep2_rep3
     type bigWig 0 30000
     configurable on
     visibility dense
@@ -1468,7 +1468,7 @@ track Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
         parent Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213583bb9a8c5eda69df/display?to_ext=bigwig
         shortLabel Adult_Heart_VecadCre_p300_rep1_Track_Profile
-        longLabel ChIPseq_Adult_Heart_VecadCre_p300_rep1_Track_Profile
+        longLabel ChIPseq_Adult(P8)_Heart_VecadCre_EndothelialinHeart_p300_rep1_Track_Profile
         type bigWig
         color 0,0,0
           
@@ -1477,7 +1477,7 @@ track Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
         parent Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a443fb4aae8bd5b5/display?to_ext=bigwig
         shortLabel Adult_Heart_VecadCre_p300_rep2_Track_Profile
-        longLabel ChIPseq_Adult_Heart_VecadCre_rep2_Track_Profile
+        longLabel ChIPseq_Adult(P8)_Heart_VecadCre_EndothelialinHeart_p300_rep2_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -1485,7 +1485,7 @@ track Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
         parent Adult_Heart_VecadCre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213575b87fd448d43112/display?to_ext=bigwig
         shortLabel Adult_Heart_VecadCre_p300_rep3_Track_Profile
-        longLabel ChIPseq_Adult_Heart_VecadCre_p300_rep3_Track_Profile
+        longLabel ChIPseq_Adult(P8)_Heart_VecadCre_EndothelialinHeart_p300_rep3_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -1495,7 +1495,7 @@ track Adult_Heart_VecadCre_p300_rep3_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b5c8abf8f9804eb6/display?to_ext=bigbed
 itemRgb on
 shortLabel Adult_Heart_VecadCre_p300_rep3_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346463_Adult_Heart_VecadCre_rep3     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346463_Adult(P8)_Heart_VecadCre_EndothelialinHeart_p300_rep3     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1505,7 +1505,7 @@ track Adult_Heart_VecadCre_p300_rep2_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d9d6ce8241ccaf0e/display?to_ext=bigbed
 itemRgb on
 shortLabel Adult_Heart_VecadCre_p300_rep2_Track_Peaks 
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346462_Adult_Heart_VecadCre_rep2     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346462_Adult(P8)_Heart_VecadCre_EndothelialinHeart_p300_rep2     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1515,7 +1515,7 @@ track Adult_Heart_VecadCre_p300_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ba94b5e37ba37036/display?to_ext=bigbed
 itemRgb on
 shortLabel Adult_Heart_VecadCre_p300_rep1_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346461_Adult_Heart_VecadCre_p300_rep1      
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346461_Adult(P8)_Heart_VecadCre_EndothelialinHeart_p300_rep1      
 type bigBed 3 +
 configurable on
 visibility dense
