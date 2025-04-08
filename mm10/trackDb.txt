@@ -1285,7 +1285,7 @@ color 0,0,0
 track E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
     container multiWig
     shortLabel E11.5_Tie2Cre_p300_rep1_rep2_OverlayTrack
-    longLabel ChIPseq_GSE88789_ZhouP_GSM2346452_GSM2346453_GSM2346454_E11.5_Tie2Cre_p300_rep1_rep2_rep3
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346452_GSM2346453_GSM2346454_E11.5_Tie2Cre_EndothelialinEmbryo_p300_rep1_rep2_rep3
     type bigWig 0 30000
     configurable on
     visibility dense
@@ -1306,7 +1306,7 @@ track E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
         parent E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bfabbc12cd823207/display?to_ext=bigwig
         shortLabel E11.5_Tie2Cre_p300_rep1_Track_Profile
-        longLabel ChIPseq_E11.5_Tie2Cre_p300_rep1_Track_Profile
+        longLabel ChIPseq_E11.5_Tie2Cre_EndothelialinEmbryo_p300_rep1_Track_Profile
         type bigWig
         color 0,0,0
           
@@ -1315,7 +1315,7 @@ track E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
         parent E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213549e8db36103ae3dd/display?to_ext=bigwig
         shortLabel E11.5_Tie2Cre_p300_rep2_Track_Profile
-        longLabel ChIPseq_E11.5_Tie2Cre_p300_rep2_Track_Profile
+        longLabel ChIPseq_E11.5_Tie2Cre_EndothelialinEmbryo_p300_rep2_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -1323,7 +1323,7 @@ track E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
         parent E11.5_Tie2Cre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213545ea0b88cb21fa2c/display?to_ext=bigwig
         shortLabel E11.5_Tie2Cre_p300_rep3_Track_Profile
-        longLabel ChIPseq_E11.5_Tie2Cre_p300_rep3_Track_Profile
+        longLabel ChIPseq_E11.5_Tie2Cre_EndothelialinEmbryo_p300_rep3_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -1333,7 +1333,7 @@ track E11.5_Tie2Cre_p300_rep3_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350274c395fccdf0e1/display?to_ext=bigbed
 itemRgb on
 shortLabel E11.5_Tie2Cre_p300_rep3_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346454_E11.5_Tie2Cre_p300_rep3     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346454_E11.5_Tie2Cre_EndothelialinEmbryo_p300_rep3     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1343,7 +1343,7 @@ track E11.5_Tie2Cre_p300_rep2_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135423383458bb28e85/display?to_ext=bigbed
 itemRgb on
 shortLabel E11.5_Tie2Cre_p300_rep2_Track_Peaks 
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346453_E11.5_Tie2Cre_p300_rep2     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346453_E11.5_Tie2Cre_EndothelialinEmbryo_p300_rep2     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1353,7 +1353,7 @@ track E11.5_Tie2Cre_p300_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e77b3eccd35cbeec/display?to_ext=bigbed
 itemRgb on
 shortLabel E11.5_Tie2Cre_p300_rep1_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346452_E11.5_Tie2Cre_p300_rep1      
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346452_E11.5_Tie2Cre_EndothelialinEmbryo_p300_rep1      
 type bigBed 3 +
 configurable on
 visibility dense
