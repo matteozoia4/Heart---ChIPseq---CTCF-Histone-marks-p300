@@ -1529,7 +1529,7 @@ color 0,0,0
 track Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
     container multiWig
     shortLabel Adult_Heart_EIIaCre_p300_rep1_rep2_OverlayTrack
-    longLabel ChIPseq_GSE88789_ZhouP_GSM2346459_GSM2346460_Adult_Heart_EIIaCre_p300_rep1_rep2
+    longLabel ChIPseq_GSE88789_ZhouP_GSM2346459_GSM2346460_Adult(P8)_Heart_EIIaCre_p300_rep1_rep2
     type bigWig 0 30000
     configurable on
     visibility dense
@@ -1550,7 +1550,7 @@ track Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
         parent Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a901c524d05e08ff/display?to_ext=bigwig
         shortLabel Adult_Heart_EIIaCre_p300_rep1_Track_Profile
-        longLabel ChIPseq_Adult_Heart_EIIaCre_p300_rep1_Track_Profile
+        longLabel ChIPseq_Adult(P8)_Heart_EIIaCre_p300_rep1_Track_Profile
         type bigWig
         color 0,0,0
           
@@ -1559,7 +1559,7 @@ track Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
         parent Adult_Heart_EIIaCre_p300_ChIPseq_GSE88789_ZhouP
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353d195dd85077b5d8/display?to_ext=bigwig
         shortLabel Adult_Heart_EIIaCre_p300_rep2_Track_Profile
-        longLabel ChIPseq_Adult_Heart_EIIaCre_p300_rep2_Track_Profile
+        longLabel ChIPseq_Adult(P8)_Heart_EIIaCre_p300_rep2_Track_Profile
         type bigWig
         color 0,0,0
 
@@ -1570,7 +1570,7 @@ track Adult_Heart_EIIaCre_p300_rep2_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357a9d7c0728c7e332/display?to_ext=bigbed
 itemRgb on
 shortLabel Adult_Heart_EIIaCre_p300_rep2_Track_Peaks 
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346460_Adult_Heart_EIIaCre_p300_rep2     
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346460_Adult(P8)_Heart_EIIaCre_p300_rep2     
 type bigBed 3 +
 configurable on
 visibility dense
@@ -1580,7 +1580,7 @@ track Adult_Heart_EIIaCre_p300_rep1_ChIPseq_Peaks
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358ac7deb96bd75f0e/display?to_ext=bigbed
 itemRgb on
 shortLabel Adult_Heart_EIIaCre_p300_rep1_Track_Peaks
-longLabel ChIPseq_GSE88789_ZhouP_GSM2346459_Adult_Heart_EIIaCre_p300_rep1      
+longLabel ChIPseq_GSE88789_ZhouP_GSM2346459_Adult(P8)_Heart_EIIaCre_p300_rep1      
 type bigBed 3 +
 configurable on
 visibility dense
